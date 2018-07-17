@@ -1,0 +1,212 @@
+{
+  "name": "Emily C. Neu",
+  "address": ["1636 Center Street", "East Aurora, NY 14052"],
+  "phone": "716.392.6127",
+  "email": "ecn2108@gmail.com",
+  "experience": [
+    {
+      "dates": ["2012", "2017"],
+      "title": "Physician Assistant Program",
+      "employer": "Rochester Institute of Technology",
+      "location": "Rochester, NY",
+      "description": "B.S./M.S. Physician Assistant Studies, May 2017",
+      "projects": [
+        {"title": "Masters Project", "description": "Research paper and presentation on transcatheter aortic valve replacement with assessment of futility in elderly populations and utility among low-risk aortic stenosis surgical candidates"}
+      ],
+      "rotations": [
+        {"name": "Psychiatry",         "employer": "Newark Wayne Community Hospital",    "duration": "5 weeks"},
+        {"name": "Emergency Medicine", "employer": "Newark Wayne Community Hospital",    "duration": "5 weeks"},
+        {"name": "Orthopedics",        "employer": "Finger Lakes Bone and Joint Center", "duration": "5 weeks"},
+        {"name": "Surgery",            "employer": "Rochester General Hospital",         "duration": "5 weeks"},
+        {"name": "Geriatrics",         "employer": "Unity Hospital",                     "duration": "5 weeks"},
+        {"name": "Family Medicine",    "employer": "Lyons Family Health Center",         "duration": "5 weeks"},
+        {"name": "Forensics",          "employer": "Buffalo Medical Examiner Office",    "duration": "5 weeks"},
+        {"name": "OB/GYN",             "employer": "Unity Hospital",                     "duration": "5 weeks"},
+        {"name": "Internal Medicine",  "employer": "Unity Hospital ICU",                 "duration": "5 weeks"},
+        {"name": "Pediatrics",         "employer": "Jamestown Pediatrics",               "duration": "5 weeks"}
+      ],
+      "proficiencies": [
+        "venipuncture",
+        "initiation of intravenous infusions",
+        "placement of NG tubes",
+        "obtaining and interpretation of EKGs",
+        "aseptic and isolation techniques, collection of cultures",
+        "incision and drainage",
+        "arterial blood draws",
+        "CPR",
+        "placement of urinary catheters",
+        "papanicolaou cytology smears",
+        "wound care and dressing changes",
+        "closure of wounds via suture",
+        "staples, and skin adhesive",
+        "SQ/IM injections",
+        "laboratory/radiographic interpretation"
+      ],
+      "experience_in": [
+        "examination of eyes using fluorescein staining",
+        "removal of ocular foreign bodies",
+        "casting and splinting",
+        "cardiac defibrillation",
+        "assisted respiration",
+        "endoscopy",
+        "colonoscopy",
+        "insertion and removal of central lines",
+        "endotracheal intubation",
+        "joint aspiration",
+        "insertion and removal of chest tubes",
+        "thoracentesis",
+        "paracentesis",
+        "lumbar puncture",
+        "fracture/dislocation reduction",
+        "surgical first assist"
+      ],
+      "gpa": [3.84, 4.0],
+      "category": "education"
+    },
+    {
+      "dates": ["2009", "2012"],
+      "employer": "East Aurora High School",
+      "location": "East Aurora, NY",
+      "description": "Salutatorian, NYS Regents with Advanced Designation with Honors",
+      "gpa": [97.65, 100],
+      "category": "education"
+    },
+    {
+      "dates": ["2017", "present"],
+      "title": "Physician Assistant",
+      "employer": "Wilson Hospital Emergency Dept.",
+      "location": "Johnson City, NY",
+      "description": "I work in the main emergency department (level II trauma center) evaluating patients of all acuity levels. I am responsible for independently evaluating patients, ordering appropriate diagnostic and laboratory testing, calling for consultation as needed, performing procedures, and determining an appropriate disposition based on medical decision making. ",
+      "category": "occupational_experience"
+    },
+    {
+      "dates": ["2012", "2016"],
+      "title": "Nursing Assistant",
+      "employer": "Center for Ambulatory Surgery",
+      "location": "West Seneca, NY",
+      "description": "I worked directly with patients both pre and post operatively in an ambulatory surgery center as well as colonoscopy and endoscopy suite. Here I assisted with intake interviews, obtaining vital signs, patient transfers, and assisting nurses with tasks such as communication, stocking, ordering, etc.",
+      "category": "occupational_experience"
+    },
+    {
+      "dates": ["2014", "2016"],
+      "title": "Home Health Aide",
+      "employer": "Garvey Family",
+      "location": "East Aurora, NY",
+      "description": "I assisted a local family with the care of their mother within the home. My responsibilities included transferring between bed, chair, and commode, showering, assistance with toileting, medication administration, meal preparation, and housework.",
+      "category": "occupational_experience"
+    },
+    {
+      "dates": ["2015"],
+      "title": "Interventional Radiology",
+      "employer": "Millard Filmore Suburban Hospital",
+      "location": "Williamsville, NY",
+      "description": "Placement of arterial, PICC, and central venous lines, mediport, and spinal tap",
+      "category": "shadowing_experience"
+    },
+    {
+      "dates": ["2015"],
+      "title": "Catherization Lab",
+      "employer": "Gates Vascular Institute",
+      "location": "Buffalo, NY",
+      "description": "Coronary and cerebral angiogram with stenting, radiofrequency ablation, transcatheter aortic valve replacement",
+      "category": "shadowing_experience"
+    },
+    {
+      "dates": ["2011"],
+      "title": "Cardiothoracic Surgery",
+      "employer": "Millard Fillmore Gates Hospital",
+      "location": "Buffalo, NY",
+      "description": "Open coronary artery bypass graft surgeries",
+      "category": "shadowing_experience"
+    },
+    {
+      "dates": ["2012", "2017"],
+      "title": "Dean's list for all semesters at RIT",
+      "category": "awards"
+    },
+    {
+      "dates": ["2012", "2017"],
+      "title": "RIT Presidential scholar",
+      "category": "awards"
+    },
+    {
+      "dates": ["2016", "2017"],
+      "title": "Rochester Regional Physician Assistant Association Scholarship",
+      "category": "awards"
+    },
+    {
+      "dates": ["2012", "2016"],
+      "title": "RIT honors program scholarship",
+      "category": "awards"
+    },
+    {
+      "dates": ["2012", "2016"],
+      "title": "Keller scholarship recipient through East Aurora High School",
+      "category": "awards"
+    },
+    {
+      "dates": ["2014", "2016"],
+      "title": "Nathaniel Rochester Society Scholarship recipient",
+      "category": "awards"
+    },
+    {
+      "dates": ["2012"],
+      "title": "Western New York Scholar Athlete Team for cross country and track and field",
+      "category": "awards"
+    },
+    {
+      "dates": ["2017"],
+      "title": "Certification by the National Commission on Certification of Physician Assistants",
+      "category": "certification"
+    },
+    {
+      "dates": ["2016", "2018"],
+      "title": "Basic Life Support for Health Care Providers",
+      "category": "certification"
+    },
+    {
+      "dates": ["2017", "2019"],
+      "title": "Advanced Cardiac Life Support for Health Care Providers",
+      "category": "certification"
+    },
+    {
+      "dates": ["2017", "2019"],
+      "title": "Advanced Pediatric Life Support for Health Care Providers",
+      "category": "certification"
+    },
+    {
+      "dates": ["2012", "2017"],
+      "title": "Member, American Academy of Physician Assistants",
+      "category": "memberships"
+    },
+    {
+      "dates": ["2015", "2017"],
+      "title": "Member, Rochester Regional Physician Assistant Association",
+      "category": "memberships"
+    },
+    {
+      "dates": ["2012", "2017"],
+      "title": "Member, Rochester Institute of Technology Physician Assistant Association",
+      "category": "memberships"
+    },
+    {
+      "dates": ["2014", "2016"],
+      "title": "Kaleida hospital Volunteer – updated families on status of surgical procedures",
+      "category": "volunteering"
+    },
+    {
+      "dates": ["2015", "2016"],
+      "title": "Saint Marys Assisted Living Volunteer – Seasonal help with holiday celebrations",
+      "category": "volunteering"
+    },
+    {
+      "dates": ["2008", "2014"],
+      "title": "Lothlorien Therapeutic Riding Center – assisted individuals with disabilities in riding horses and engaging in educational games while riding",
+      "category": "volunteering"
+    }
+  ],
+  "skills": [
+    "EMR trained – EPIC, Tsystem, and Cerner",
+    "electronic prescription writing trained"
+  ]
+}

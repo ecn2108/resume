@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0 auto;
+  width: 900px;
+  padding: 80px;
+}
+body > .header {
+  display: flex;
+}
+body > .header > * {
+  flex: 1 0 auto;
+  align-items: center;
+}
+body > .header > *:nth-child(3n-1) {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+body > .header > *:nth-child(3n) {
+  text-align: right;
+}
+
+body > .experiences > .group {
+  margin: 40px 0 12px 0;
+}
+body > .experiences .group > .title {
+  text-decoration: underline;
+  margin: 12px 0 8px 0px;
+}
+body > .experiences > .group > .title {
+  margin-left: 100px;
+}
+body > .experiences > .group > .experience {
+  display: flex;
+}
+body > .experiences > .group > .experience:not(.tight) + .experience {
+  margin-top: 20px;
+}
+body > .experiences > .group > .experience > .dates {
+  flex: 0 0 100px;
+}
+body > .experiences > .group > .experience > .dates > span:not(:first-child):before {
+  content: ' - ';
+}
+body > .experiences > .group > .experience > .body {
+  flex: 1 1 auto;
+}
+body > .experiences > .group > .experience > .body > .header {
+  display: grid;
+}
+body > .experiences > .group > .experience > .body > .header.large + .description {
+  font-style: italic;
+}
+body > .experiences > .group > .experience > .body > .header.small {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+body > .experiences > .group > .experience > .body > .header.tight {
+}
+body > .experiences > .group > .experience > .body > .header.small > *:nth-child(3n-1) {
+  text-align: center;
+}
+body > .experiences > .group > .experience > .body > .header.small > *:nth-child(3n) {
+  text-align: right;
+}
+body > .experiences > .group > .experience > .body > .header.small > .title {
+  font-style: italic;
+}
+body > .experiences > .group > .experience > .body > .header.small + .description {
+  margin-top: 4px;
+}
+body > .experiences > .group > .experience > .body > .header.large {
+  grid-template-columns: max-content auto max-content;
+}
+body > .experiences > .group > .experience > .body > .header.large > .employer {
+  grid-column: 1 / 2;
+  font-weight: bold;
+}
+body > .experiences > .group > .experience > .body > .header.large > .employer + *:before {
+  grid-column: 2 / 3;
+  content: ', ';
+}
+body > .experiences > .group > .experience > .body > .header.large > .gpa {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  text-align: right;
+}
+body > .experiences > .group > .experience > .body > .group.rotations > .table {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+body > .experiences > .group > .experience > .body > .group.rotations > .table > *:nth-child(3n) {
+  text-align: right;
+}
+body > .experiences > .group > .experience > .body > .group > .comma-delimited > *:not(:first-child):before {
+  content: ', ';
+}

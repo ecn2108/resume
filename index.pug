@@ -1,0 +1,102 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title 'Emily Neu - Physician Assistant
+    link(rel='stylesheet' href='style.css')
+  body
+    .header
+      .contact
+        div(title='phone')= phone
+        div(title='email')= email
+      .name= name
+      .address(title='address')
+        each line in address
+          div= line
+    .experiences
+      .group.education
+        .title Education
+        each education in categories['education']
+          .experience
+            .dates
+              each date in education.dates
+                span= date
+            .body
+              .header.large
+                if education.title
+                  span.title= education.title
+                span.employer(title='school')= education.employer
+                span.location(title='city')= education.location
+                span.gpa(title='gpa') GPA: #{education.gpa[0]}
+              .description= education.description
+              if education.projects
+                each project in education.projects
+                  .group
+                    .title= project.title
+                    .description= project.description
+              if education.rotations
+                .group.rotations
+                  .title Clinical Rotations
+                  .table
+                    each rotation in education.rotations
+                      span= rotation.name
+                      span= rotation.employer
+                      span= rotation.duration
+              if education.proficiencies
+                .group
+                  .title Proficient in
+                  .description.comma-delimited
+                    each part in education.proficiencies
+                      span= part
+              if education.experience_in
+                .group
+                  .title Experience in
+                  .description.comma-delimited
+                    each part in education.experience_in
+                      span= part
+      .group
+        .title Occupational Experience
+        each experience in categories['occupational_experience']
+          .experience
+            .dates
+              each date in experience.dates
+                span= date
+            .body
+              .header.small
+                span.title= experience.title
+                span= experience.employer
+                span= experience.location
+              .description= experience.description
+      .group
+        .title Professional Shadowing Experience
+        each experience in categories['shadowing_experience']
+          .experience
+            .dates
+              each date in experience.dates
+                span= date
+            .body
+              .header.small
+                span.title= experience.title
+                span= experience.employer
+                span= experience.location
+              .description= experience.description
+      each name, key in {awards: 'Scholarships/Awards', certification: 'Certifications', memberships: 'Professional Memberships', volunteering: 'Volunteer Experience'}
+        .group
+          .title= name
+          each experience in categories[key]
+            .experience.tight
+              .dates
+                each date in experience.dates
+                  span= date
+              .body
+                .header
+                  span.title= experience.title
+                .description= experience.description
+      .group
+        .title Computer Skills
+        .experience
+          .dates
+          .body
+            .description.comma-delmited
+              each skill in skills
+                span= skill
