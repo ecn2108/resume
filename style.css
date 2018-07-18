@@ -6,7 +6,7 @@ html {
 }
 body {
   margin: 0 auto;
-  width: 860px;
+  width: 890px;
   padding: 80px;
 }
 body > .header {
@@ -37,6 +37,7 @@ body > .experiences > .group > .title {
 }
 body > .experiences > .group > .experience {
   display: flex;
+  page-break-inside: avoid;
 }
 body > .experiences > .group > .experience:not(.tight) + .experience {
   margin-top: 20px;
